@@ -114,7 +114,7 @@ header a:hover{
 
 #nyhetsbrev h2{
   float:left;
-  width: 53vw;
+  width: 53%;
 }
 
 #nyhetsbrev form{
@@ -127,7 +127,7 @@ header a:hover{
 #nyhetsbrev input[type="email"]{
   padding:4px;
   height:25px;
-  width: 18vw;
+  width: 200px;
 }
 
 /* Boxes */
