@@ -59,7 +59,7 @@ header a{
 header li{
   float:left;
   display:inline;
-  padding:0 20px 0 20px;
+  padding:0 10px 0 10px;
 }
 
 header #branding{
@@ -112,20 +112,22 @@ header a:hover{
   background:#5c0101
 }
 
-#nyhetsbrev h1{
+#nyhetsbrev h2{
   float:left;
+  width: 53vw;
 }
 
 #nyhetsbrev form{
   float:right;
   margin-top:15px;
+
 }
 
 
 #nyhetsbrev input[type="email"]{
   padding:4px;
   height:25px;
-  width:250px;
+  width: 18vw;
 }
 
 /* Boxes */
@@ -152,40 +154,34 @@ section{
 /* Pictures*/
 #pics{
   background-color:#f2f1dc;
-}
-#pics .pic{
-  float: left;
-  width:33%;
-  background: url('../img/bongo.jpg') no-repeat;
-  background-size:cover;
   text-align: center;
   color:#ffffff;
   text-shadow: 2px 2px #000000;
 }
+ #pic{
+  float: left;
+  width:33%;
+  background: url('../img/bongo.jpg') no-repeat;
+  background-size:cover;
+}
 
-#pics .pic1{
+#pic1{
   float: left;
   width:34%;
   background-position: center bottom;
   background: url('../img/congas.jpg') no-repeat;
   background-size:cover;
-  text-align: center;
-  color:#ffffff;
-  text-shadow: 2px 2px #000000;
 }
 
-#pics .pic2{
+#pic2{
   float: left;
   width:33%;
   background: url('../img/pukor.jpg') no-repeat;
   background-size:cover;
   background-position: right;
-  text-align: center;
-  color:#ffffff;
-  text-shadow: 2px 2px #000000;
 }
 
-/* Sidebar */
+/* Sidebar i slagverk*/
 aside#sidebar{
   float:right;
   width:30%;
@@ -219,13 +215,16 @@ footer {
 
 /* Media Queries*/
 
-@media (max-aspect-ratio: 1/1){
+@media (max-aspect-ratio: 5/4){
   header #branding,
   header nav,
   header nav li,
-  #nyhetsbrev h1,
+  #nyhetsbrev h2,
   #nyhetsbrev form,
   #boxes .box,
+  #pic,
+  #pic1,
+  #pic2,
   article#main-col,
   aside#sidebar{
     float:none;
